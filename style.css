@@ -1,0 +1,160 @@
+body{
+    background-color: #0c1317;
+    margin: 0;
+}
+
+.wp-head{
+    background-color: #00a782;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 225px;
+}
+img{
+    margin-top: 20px;
+    margin-left: 23%;
+    height: 60px;
+}
+.wp-head h2{
+    margin-left: 26.5%;
+    margin-top: 2.2%;
+    font-size: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.wp-body{
+    background-color: white;
+    padding: 3%;
+    margin-left: 24%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 46.5%;
+    height: 1000px;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: solid rgb(180, 180, 180) 0.5px;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.box .lap{
+    padding-right: 30px;
+}
+.box button{
+    background-color: #007a60;
+    padding: 12px;
+    border-radius: 100000px;
+    border: solid rgb(14, 63, 45) 1px;
+    width: 220px;
+}
+.box a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.wp-conex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 75px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+}
+.wp-info{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.wp-info h1{
+    font-weight: normal;
+    font-size: 25px;
+    color: #444444;
+}
+.wp-info ol{
+    padding-left: 20px;
+}
+.wp-info li{
+    padding: 10px;
+}
+.qr img{
+    width: 270px;
+    height: 260px;
+}
+.wp-vin{
+    color: #007a60;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.wp-tut{
+    background-color: rgb(252, 250, 248);
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 570px;
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wp-tut div{
+    padding: 10px;
+}
+.wp-tut p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.wp-tut a{
+    display: flex;
+    justify-content: center;
+    color: #007a60;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/* Barra de desplazamiento horizontal */
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #292828;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4d4d55;
+    border-radius: 4px;
+  }
+  
+  /* Barra de desplazamiento vertical */
+  ::-webkit-scrollbar {
+    height: 6px;
+    background-color: #292828;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4d4d55;
+    border-radius: 4px;
+  }
+  
