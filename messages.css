@@ -56,7 +56,7 @@ body {
 }
 /*hasta aqui*/
 /**/
-.contenedor-padre {
+.container-f {
     margin: 0;
     font-family: Arial, sans-serif;
     height: 90vh;
@@ -64,19 +64,19 @@ body {
     border: 1px solid black;
   }
 
-  .contenedor-izquierdo {
+  .container-left {
     flex: 0.96;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #293b46; /* Ajusta el color del contenedor izquierdo según tu preferencia */
+    background-color: #293b46; 
   }
 
   .seccion {
     border: 0.1px solid rgb(68, 68, 68);
     flex: 1;
     padding: 10px;
-    background-color: rgba(16,27,32,255); /* Ajusta el color de las secciones según tu preferencia */
+    background-color: rgba(16,27,32,255); 
     display: flex;
     color: white;
     align-items: center;
@@ -97,21 +97,21 @@ body {
     height: 20px;
   }
 
-  .contenedor-derecho {
+  .container-right {
     border: 0.1px solid rgb(68, 68, 68);
     flex: 3;
     display: flex;
     flex-direction: column;
-    background-color: rgba(16,27,32,255); /* Ajusta el color del contenedor derecho según tu preferencia */
+    background-color: rgba(16,27,32,255); 
   }
 
-  .seccion-derecha-1 {
+  .seccion-right-1 {
     flex: 4; /* Ocupa el espacio de 4 secciones del contenedor izquierdo */
     padding: 10px;
     background-image: url(./img/fondo.png);
     overflow-y: auto;
   }
-  .mensaje {
+  .sms {
     margin-bottom: 16px;
     max-width: 70%;
     padding: 8px;
@@ -120,18 +120,18 @@ body {
     word-wrap: break-word;
   }
 
-  .mensaje-recibido {
+  .sms-received {
     background-color: rgba(0,169,133,255);
     margin-left: 700px;
     color: white;
   }
-  .mensaje-enviado {
+  .sms-sent {
     background-color: rgba(16,27,32,255);
     margin-right: 700px;
     color: white;
   }
 
-  .seccion-derecha-2 {
+  .seccion-right-2 {
     border: 0.1px solid rgb(68, 68, 68);;
     flex: -1; /* Ocupa el espacio de 1 sección del contenedor izquierdo */
     padding: 15px;
@@ -140,7 +140,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-  .seccion-derecha-2 input{
+  .seccion-right-2 input{
     border: 0.1px solid black;
     color: white;
     border-radius: 100px;
@@ -149,10 +149,10 @@ body {
     background-color: #374d5a;
 
   }
-  .seccion-derecha-2 i{
+  .seccion-right-2 i{
     color: #7d8a95;
   }
-  .seccion-derecha-2 i:hover{
+  .seccion-right-2 i:hover{
     transform: scale(1.2, 1.2);
     background-color: rgba(134, 20, 20, 0);
     color: black;
